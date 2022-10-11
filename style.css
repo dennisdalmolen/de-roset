@@ -52,3 +52,83 @@ body {
     background-color: #adffce;
     font-weight: 500;
 }
+
+.smaak-vdd img {
+    max-width: 150px;
+    border-radius: 1000px;
+}
+
+.smaak-vdd {
+    background-color: white;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.main-text h2{
+    margin-bottom: 0;
+}
+
+.text-1 h3{
+    margin-top: -15px;
+}
+
+.main-left .smaak-vdd a,
+.main-left .populaire-smaken a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bestel-knop-1 {
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.populaire-smaken {
+    background-color: #FFFFFF;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin: 25px 0 0 0;
+}
+
+.populaire-smaken img {
+    max-width: 100px;
+    border-radius: 1000px;
+}
+
+.text-1 h4{
+    margin: 0;
+}
+
+.text-1 h4:last-child{
+    margin: 0 0 15px 0;
+}
+
+.main-group {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+
+.main-main {
+    background-color: #FFFFFF;
+    width: 810px;
+    height: 780px;
+    border-radius: 25px;
+    margin: -75px 0 0 0;
+}
+
+.main-left {
+    margin: 0 80px 0 0;
+}
+
+.main-overons {
+    padding: 50px;
+}
