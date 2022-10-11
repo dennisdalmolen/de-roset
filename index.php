@@ -96,6 +96,45 @@
                     <div class="main-text">
                         <h2>Over Ons</h2>
                     </div>
+                    <article>
+                        <div class="article-left-1">
+                            <h5>
+                                De Roset IJssalon is geopend in het zomerseizoen.
+                                Je hebt keuze uit diverse smaken en toppings.
+                                Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs.
+                            </h5>
+                        </div>
+                        <div class="article-right-1">
+                            <div class="article-image-1">
+                                <img src="images/ijszaak.jpg" alt="">
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article-center-1">
+                            <h5>
+                                De Roset IJssalon is geopend in het zomerseizoen.
+                                Je hebt keuze uit diverse smaken en toppings.
+                                Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs. De Roset IJssalon is geopend in het zomerseizoen.
+                                Je hebt keuze uit diverse smaken en toppings.
+                                Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs.
+                            </h5>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article-left-2">
+                            <div class="article-image-1">
+                                <img src="images/ijszaak.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="article-right-2">
+                            <h5>
+                                De Roset IJssalon is geopend in het zomerseizoen.
+                                Je hebt keuze uit diverse smaken en toppings.
+                                Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs.
+                            </h5>
+                        </div>
+                    </article>
                 </div>
             </div>
 
