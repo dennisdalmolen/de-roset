@@ -132,3 +132,34 @@ body {
 .main-overons {
     padding: 50px;
 }
+
+.article-image-1 img {
+    max-width: 300px;
+}
+
+.main-overons article {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.article-left-1 {
+    margin-right: 20px;
+}
+
+.article-right-2 {
+    margin-left: 20px;
+}
+
+.main-overons .main-text {
+    margin: 0 0 20px 0;
+}
+
+article h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.article-center-1 {
+    margin: 30px 0;
+}
