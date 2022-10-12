@@ -146,4 +146,28 @@
 
 <footer>
 
+    <div class="footer-group">
+        <div class="footer-left">
+            <div class="footer-text">
+                <h6>Ons adress</h6>
+                <h7>Overtoom 17</h7>
+                <h7>1901 EP Castricum</h7>
+                <h7>Noord-Holland Nederland</h7>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <h6>Wij bezorgen in:</h6>
+            <h7>Castricum</h7>
+            <h7>Uitgeest</h7>
+            <h7>Heemskerk</h7>
+        </div>
+
+        <div class="footer-right">
+            <a href="#">
+                Onze Voorwaarden
+            </a>
+        </div>
+    </div>
+
 </footer>
