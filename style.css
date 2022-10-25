@@ -154,6 +154,14 @@ body {
     margin: 0 0 20px 0;
 }
 
+.main-bestellen .main-text {
+    margin: 0 0 20px 0;
+}
+
+.main-bestellen {
+    padding: 50px;
+}
+
 article h5 {
     font-size: 18px;
     font-weight: 500;
@@ -190,4 +198,62 @@ footer {
 .footer-middle {
     display: flex;
     flex-direction: column;
+}
+
+.ijs-item img {
+    max-width: 125px;
+    border-radius: 1000px;
+}
+
+.ijs-item {
+    background-color: white;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.ijs-item a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.ijs-item-lower {
+    display: flex;
+    height: 42px;
+    align-items: stretch;
+    margin-top: -10px;
+}
+
+.ijs-item-lower input {
+    width: 55px;
+}
+
+.ijs-items-1,
+.ijs-items-2,
+.ijs-items-3 {
+    display: flex;
+}
+
+.ijs-items-2,
+.ijs-items-3 {
+    margin-top: 20px;
+}
+
+.blog-article-1,
+.blog-article-2 {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.blog-article-1 .main-text h2,
+.blog-article-2 .main-text h2 {
+    margin-top: 0px;
+}
+
+.blog-article-2 {
+    margin-top: 20px;
 }
