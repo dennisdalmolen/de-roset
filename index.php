@@ -21,19 +21,19 @@
         </div>
         <div class="header-right">
             <nav>
-                <a href="#">
+                <a href="index.php">
                     <div class="menu-text-active">Over Ons</div>
                 </a>
-                <a href="#">
+                <a href="bestellen.php">
                     <div class="menu-text">Bestellen</div>
                 </a>
-                <a href="#">
+                <a href="blog.php">
                     <div class="menu-text">Blog</div>
                 </a>
-                <a href="#">
+                <a href="contact.php">
                     <div class="menu-text">Contact</div>
                 </a>
-                <a href="#">
+                <a href="winkelmandje.php">
                     <div class="menu-text">Winkelmandje</div>
                 </a>
             </nav>
