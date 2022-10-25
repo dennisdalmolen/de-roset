@@ -48,44 +48,59 @@
 
         <div class="main-left">
             <div class="smaak-vdd">
-                <div class="main-text">
-                    <h2>Smaak Van de Dag</h2>
-                </div>
-                <div class="ijs-image">
-                    <img src="images/ijs-fotos/ChocolateMarshmallow-300x258.jpg" alt="">
-                </div>
-                <div class="text-1">
-                    <h3>Chocolade</h3>
-                </div>
-                <a href="#">
-                    <div class="bestel-knop-1">
-                        Bestel
+                <div class="svdd-1">
+                    <div class="main-text">
+                        <h2>Smaak Van de Dag</h2>
                     </div>
-                </a>
+                    <div class="ijs-image">
+                        <img src="images/ijs-fotos/ChocolateMarshmallow-300x258.jpg" alt="">
+                    </div>
+                </div>
+                <div class="svdd-2">
+                    <div class="text-1">
+                        <h3>Chocolade</h3>
+                    </div>
+                    <a href="#">
+                        <div class="bestel-knop-1">
+                            Bestel
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <div class="populaire-smaken">
                 <div class="main-text">
                     <h2>Populaire Smaken</h2>
                 </div>
-                <div class="ijs-image">
-                    <img src="images/ijs-fotos/PremiumAmarettoPeachCharlotte.jpg" alt="">
+                <div class="pps-group">
+                    <div class="pps-item-1">
+                        <div class="ijs-image">
+                            <img src="images/ijs-fotos/PremiumAmarettoPeachCharlotte.jpg" alt="">
+                        </div>
+                        <div class="text-1">
+                            <h4>Amaretto Perzik</h4>
+                        </div>
+                    </div>
+
+                    <div class="pps-item-2">
+                        <div class="ijs-image">
+                            <img src="images/ijs-fotos/PremiumBananaPecan-300x258.jpg" alt="">
+                        </div>
+                        <div class="text-1">
+                            <h4>Pecan Banaan</h4>
+                        </div>
+                    </div>
+
+                    <div class="pps-item-3">
+                        <div class="ijs-image">
+                            <img src="images/ijs-fotos/PremiumMintChocolateChip-300x258.jpg" alt="">
+                        </div>
+                        <div class="text-1">
+                            <h4>Mint Chocolade</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-1">
-                    <h4>Amaretto Perzik</h4>
-                </div>
-                <div class="ijs-image">
-                    <img src="images/ijs-fotos/PremiumBananaPecan-300x258.jpg" alt="">
-                </div>
-                <div class="text-1">
-                    <h4>Pecan Banaan</h4>
-                </div>
-                <div class="ijs-image">
-                    <img src="images/ijs-fotos/PremiumMintChocolateChip-300x258.jpg" alt="">
-                </div>
-                <div class="text-1">
-                    <h4>Mint Chocolade Chip</h4>
-                </div>
+
             </div>
         </div>
 
