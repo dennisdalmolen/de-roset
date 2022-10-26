@@ -280,3 +280,8 @@ footer {
 .ijs-items-rechts {
     display: flex;
 }
+
+.main-bestellen .main-text {
+    display: flex;
+    justify-content: center;
+}
