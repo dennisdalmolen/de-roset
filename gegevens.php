@@ -1,3 +1,24 @@
+<?php require 'database.php'; ?>
+
+<?php
+
+session_start();
+
+$conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
+
+if ($_SESSION['valid'] != true) {
+    header("location: inlog.php");
+    exit;
+}
+
+$sql = "SELECT * FROM users ";
+
+if ($resultaat = mysqli_query($conn, $sql)) {
+    $users = mysqli_fetch_all($resultaat, MYSQLI_ASSOC);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +50,7 @@
                         <div class="menu-text">Bestellen</div>
                     </a>
                     <a href="blog.php">
-                        <div class="menu-text-active">Blog</div>
+                        <div class="menu-text">Blog</div>
                     </a>
                     <a href="contact.php">
                         <div class="menu-text">Contact</div>
@@ -48,7 +69,7 @@
                         <div class="menu-text-new">Registreren</div>
                     </a>
                     <a href="gegevens.php">
-                        <div class="menu-text-new">Gegevens</div>
+                        <div class="menu-text-active-new">Gegevens</div>
                     </a>
                     <a href="bestellingen.php">
                         <div class="menu-text-new">Bestellingen</div>
@@ -128,54 +149,24 @@
         <div class="main-right">
 
             <div class="main-main">
-                <div class="main-overons">
-                    <div class="main-text">
-                        <h2>Blog</h2>
-                    </div>
-
-                    <div class="blog-article-1">
-                        <article>
-                            <div class="article-left-1">
-                                <div class="article-left-in">
-                                    <div class="main-text">
-                                        <h2>Zomer!</h2>
-                                    </div>
-                                    <h5>
-                                        Het is weer zo ver! Het zomerseizoen is weer begonnen en natuurlijk horen daar de lekkerste ijsjes bij!
-                                        De Roset is al jaren lang gekroond tot de beste ijszaak van Noord-Holland.
-                                        Benieuwd? Kom ons ijs snel proeven!
-                                    </h5>
-                                </div>
+                <div class="main-gegevens">
+                    <h2>Jouw Gegevens:</h2>
+                    <table class="table">
+                        <?php foreach ($users as $user) : ?>
+                            <h4>Voornaam:</h4> <?php echo $user["firstname"] ?>
+                            <h4>Achternaam:</h4><?php echo $user["lastname"] ?>
+                            <h4>Email:</h4><?php echo $user["email"] ?>
+                            <h4>Wachtwoord:</h4><?php echo $user["password"] ?>
+                            <h4>Telefoonnummer:</h4><?php echo $user["phonenumber"] ?>
+                            <h4>Geboortedatum:</h4><?php echo $user["date_of_birth"] ?>
+                            <h4>Adress:</h4><?php echo $user["adresss"] ?>
+                            <h4>Postcode:</h4><?php echo $user["zipcode"] ?>
+                            <h4>Stad:</h4><?php echo $user["city"] ?>
+                            <h4>Rol:</h4><?php echo $user["role"] ?>
+                            <div class="gegevens-bijwerken">
+                                <a href="gegevens-update.php?id=<?php echo $user["id"] ?>" class="btn btn-warning">Gegevens bijwerken!</a>
                             </div>
-                            <div class="article-right-1">
-                                <div class="article-image-1">
-                                    <img src="images/ijszaak.jpg" alt="">
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="blog-article-2">
-                        <article>
-                            <div class="article-left-1">
-                                <div class="article-left-in">
-                                    <div class="main-text">
-                                        <h2>Weer een prijs!</h2>
-                                    </div>
-                                    <h5>
-                                        Voor het derde jaar op een rij is onze ambachtelijke roomijs weer gekroond tot favoriet van Noord-Holland.
-                                        Als je het nog niet geproefd heb moet je snel langs komen!
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="article-right-1">
-                                <div class="article-image-1">
-                                    <img src="images/roset.jpg" alt="">
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
+                        <?php endforeach; ?>
                 </div>
             </div>
 
@@ -184,31 +175,3 @@
     </div>
 
 </body>
-
-<footer>
-
-    <div class="footer-group">
-        <div class="footer-left">
-            <div class="footer-text">
-                <h6>Ons adress</h6>
-                <h7>Overtoom 17</h7>
-                <h7>1901 EP Castricum</h7>
-                <h7>Noord-Holland Nederland</h7>
-            </div>
-        </div>
-
-        <div class="footer-middle">
-            <h6>Wij bezorgen in:</h6>
-            <h7>Amsterdam</h7>
-            <h7>Amstelveen</h7>
-            <h7>Bovenkerk</h7>
-        </div>
-
-        <div class="footer-right">
-            <a href="#">
-                Onze Voorwaarden
-            </a>
-        </div>
-    </div>
-
-</footer>

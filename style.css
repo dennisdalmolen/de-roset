@@ -284,4 +284,189 @@ footer {
 .main-bestellen .main-text {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-bestellen .main-text h4,
+.main-bestellen .main-text h5 {
+    margin: 0;
+}
+
+.login form {
+    width: 1000px;
+    border: 3px solid rgb(25, 203, 114);
+    padding: 20px;
+    background: #70ff99;
+    border-radius: 20px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.login label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.login button {
+    float: right;
+    background: rgb(35, 174, 202);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.login button:hover{
+    opacity: .10;
+}
+
+.login .error {
+   background: #F2DEDE;
+   color: #090101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.login h1 {
+    text-align: center;
+    color: rgb(134, 3, 3);
+}
+
+.login a {
+    float: right;
+    background: rgb(183, 225, 232);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.login a:hover {
+    opacity: .7;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.menu-text-new, .menu-text-active-new {
+    padding: 10px;
+    border: 1px solid #97e0b4;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-right-new {
+    background-color: #adffce;
+    max-height: 80px;
+}
+
+.header-right-new nav {
+    display: flex;
+}
+
+.header-right-new a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.menu-text-active-new {
+    background-color: #12ff71;
+}
+
+.menu-text-new:hover {
+    background-color: #00ff66;
+}
+
+.menu-text-active-new:hover {
+    background-color: #adffce;
+    font-weight: 500;
+}
+
+.inlog-extra {
+    margin: 200px;
+}
+
+.main-gegevens {
+    padding: 20px;
+}
+
+.main-gegevens h4 {
+    margin: 10px 0px;
+}
+
+.gegevens-bijwerken {
+    padding: 20px;
+    width: 200px;
+    background-color: #12ff71;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.gegevens-bijwerken a {
+    text-decoration: none;
+    color: #000;
+}
+
+.gegevens-bijwerken:hover {
+    background-color: #2bad5f;
+    color: #FFF;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.main-winkelmandje {
+    padding: 30px;
+}
+
+.main-winkelwagen {
+    padding: 30px;
+    display: flex;
+}
+
+.winkelmandje-title {
+    padding: 30px 30px 0 30px;
+}
+
+.winkelwagen-links {
+    margin-right: 100px;
+}
+
+.winkelwagen-rechts {
+    display: flex;
+    border: 1px solid #000;
+    width: 250px;
+}
+
+.winkelwagen-rechts h3{
+    margin-left: 10px;
+}
+
+.main-overons article:last-child {
+    padding-top: 20px;
 }

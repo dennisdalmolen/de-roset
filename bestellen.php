@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ijssalon in Castricum die bezorgt door heel Noord-Holland">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>De Roset</title>
 
 </head>
@@ -19,24 +19,45 @@
         <div class="header-left">
             <img src="images/rosetlogo.png" alt="">
         </div>
-        <div class="header-right">
-            <nav>
-                <a href="index.php">
-                    <div class="menu-text">Over Ons</div>
-                </a>
-                <a href="bestellen.php">
-                    <div class="menu-text-active">Bestellen</div>
-                </a>
-                <a href="blog.php">
-                    <div class="menu-text">Blog</div>
-                </a>
-                <a href="contact.php">
-                    <div class="menu-text">Contact</div>
-                </a>
-                <a href="winkelmandje.php">
-                    <div class="menu-text">Winkelmandje</div>
-                </a>
-            </nav>
+        <div class="header-new">
+            <div class="header-right">
+                <nav>
+                    <a href="index.php">
+                        <div class="menu-text">Over Ons</div>
+                    </a>
+                    <a href="bestellen.php">
+                        <div class="menu-text-active">Bestellen</div>
+                    </a>
+                    <a href="blog.php">
+                        <div class="menu-text">Blog</div>
+                    </a>
+                    <a href="contact.php">
+                        <div class="menu-text">Contact</div>
+                    </a>
+                    <a href="winkelmandje.php">
+                        <div class="menu-text">Winkelmandje</div>
+                    </a>
+                </nav>
+            </div>
+            <div class="header-right-new">
+                <nav>
+                    <a href="inlog.php">
+                        <div class="menu-text-new">Inloggen</div>
+                    </a>
+                    <a href="registreer.php">
+                        <div class="menu-text-new">Registreren</div>
+                    </a>
+                    <a href="gegevens.php">
+                        <div class="menu-text-new">Gegevens</div>
+                    </a>
+                    <a href="bestellingen.php">
+                        <div class="menu-text-new">Bestellingen</div>
+                    </a>
+                    <a href="uitloggen.php">
+                        <div class="menu-text-new">Uitloggen</div>
+                    </a>
+                </nav>
+            </div>
         </div>
     </div>
 
@@ -110,6 +131,10 @@
                 <div class="main-bestellen">
                     <div class="main-text">
                         <h2>Bestellen</h2>
+                        <h4>Voor elk ijs gelt dezelfde prijs, per kilo.</h4>
+                        <h5>Amsterdam €10 p/kg</h5>
+                        <h5>Amstelveen €7 p/kg</h5>
+                        <h5>Bovenkerk €5 p/kg</h5>
                     </div>
 
                     <div class="ijs-items-1">
@@ -363,9 +388,9 @@
 
         <div class="footer-middle">
             <h6>Wij bezorgen in:</h6>
-            <h7>Castricum</h7>
-            <h7>Uitgeest</h7>
-            <h7>Heemskerk</h7>
+            <h7>Amsterdam</h7>
+            <h7>Amstelveen</h7>
+            <h7>Bovenkerk</h7>
         </div>
 
         <div class="footer-right">

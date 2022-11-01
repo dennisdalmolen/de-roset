@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ijssalon in Castricum die bezorgt door heel Noord-Holland">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>De Roset</title>
 
 </head>
@@ -23,13 +23,13 @@
             <div class="header-right">
                 <nav>
                     <a href="index.php">
-                        <div class="menu-text">Over Ons</div>
+                        <div class="menu-text-active">Over Ons</div>
                     </a>
                     <a href="bestellen.php">
                         <div class="menu-text">Bestellen</div>
                     </a>
                     <a href="blog.php">
-                        <div class="menu-text-active">Blog</div>
+                        <div class="menu-text">Blog</div>
                     </a>
                     <a href="contact.php">
                         <div class="menu-text">Contact</div>
@@ -128,54 +128,83 @@
         <div class="main-right">
 
             <div class="main-main">
-                <div class="main-overons">
-                    <div class="main-text">
-                        <h2>Blog</h2>
-                    </div>
+                <div class="winkelmandje-title">
+                    <h2>Winkelmandje</h2>
+                </div>
+                <div class="main-winkelwagen">
+                    <div class="winkelwagen-links">
+                        <form action="winkelmandje-verwerk.php" method="post">
 
-                    <div class="blog-article-1">
-                        <article>
-                            <div class="article-left-1">
-                                <div class="article-left-in">
-                                    <div class="main-text">
-                                        <h2>Zomer!</h2>
-                                    </div>
-                                    <h5>
-                                        Het is weer zo ver! Het zomerseizoen is weer begonnen en natuurlijk horen daar de lekkerste ijsjes bij!
-                                        De Roset is al jaren lang gekroond tot de beste ijszaak van Noord-Holland.
-                                        Benieuwd? Kom ons ijs snel proeven!
-                                    </h5>
+                            <input type="radio" id="bezorgen" name="pickup" value="bezorgen">
+                              <label for="bezorgen">Bezorgen</label><br>
+                            <input type="radio" id="afhalen" name="pickup" value="afhalen">
+                              <label for="afhalen">Afhalen</label><br>
+                            <div class="form-group">
+                                <div class="form-left">
+                                    <label for="voornaam">Voornaam</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="voornaam" id="firstname">
                                 </div>
                             </div>
-                            <div class="article-right-1">
-                                <div class="article-image-1">
-                                    <img src="images/ijszaak.jpg" alt="">
+                            <div class=" form-group">
+                                <div class="form-left">
+                                    <label for="achternaam">Achternaam</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="achternaam" id="lastname">
                                 </div>
                             </div>
-                        </article>
-                    </div>
+                            <div class="form-group">
+                                <div class="form-left">
+                                    <label for="telefoonnummer">Telefoonnummer</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="telefoonnummer" id="phonenumber">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-left">
+                                    <label for="geboortedatum">Adress</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="geboortedatum" id="adresss">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-left">
+                                    <label for="geboortedatum">Postcode</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="geboortedatum" id="zipcode">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-left">
+                                    <label for="geboortedatum">Stad</label>
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" name="geboortedatum" id="city">
+                                </div>
+                            </div>
 
-                    <div class="blog-article-2">
-                        <article>
-                            <div class="article-left-1">
-                                <div class="article-left-in">
-                                    <div class="main-text">
-                                        <h2>Weer een prijs!</h2>
-                                    </div>
-                                    <h5>
-                                        Voor het derde jaar op een rij is onze ambachtelijke roomijs weer gekroond tot favoriet van Noord-Holland.
-                                        Als je het nog niet geproefd heb moet je snel langs komen!
-                                    </h5>
+                            <div class="form-group">
+                                <div class="form-left">
+                                </div>
+                                <div class="form-right">
+                                    <button type="submit" class="btn btn-info" name="submit">Bestellen!</button>
                                 </div>
                             </div>
-                            <div class="article-right-1">
-                                <div class="article-image-1">
-                                    <img src="images/roset.jpg" alt="">
-                                </div>
-                            </div>
-                        </article>
-                    </div>
 
+                        </form>
+                    </div>
+                    <div class="winkelwagen-rechts">
+                        <div class="winkelwagen-rechts-in">
+                            <h3>item1</h3>
+                            <h3>item2</h3>
+                            <h3>item3</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -184,31 +213,3 @@
     </div>
 
 </body>
-
-<footer>
-
-    <div class="footer-group">
-        <div class="footer-left">
-            <div class="footer-text">
-                <h6>Ons adress</h6>
-                <h7>Overtoom 17</h7>
-                <h7>1901 EP Castricum</h7>
-                <h7>Noord-Holland Nederland</h7>
-            </div>
-        </div>
-
-        <div class="footer-middle">
-            <h6>Wij bezorgen in:</h6>
-            <h7>Amsterdam</h7>
-            <h7>Amstelveen</h7>
-            <h7>Bovenkerk</h7>
-        </div>
-
-        <div class="footer-right">
-            <a href="#">
-                Onze Voorwaarden
-            </a>
-        </div>
-    </div>
-
-</footer>

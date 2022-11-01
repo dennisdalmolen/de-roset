@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ijssalon in Castricum die bezorgt door heel Noord-Holland">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>De Roset</title>
 
 </head>
@@ -19,24 +19,45 @@
         <div class="header-left">
             <img src="images/rosetlogo.png" alt="">
         </div>
-        <div class="header-right">
-            <nav>
-                <a href="index.php">
-                    <div class="menu-text-active">Over Ons</div>
-                </a>
-                <a href="bestellen.php">
-                    <div class="menu-text">Bestellen</div>
-                </a>
-                <a href="blog.php">
-                    <div class="menu-text">Blog</div>
-                </a>
-                <a href="contact.php">
-                    <div class="menu-text">Contact</div>
-                </a>
-                <a href="winkelmandje.php">
-                    <div class="menu-text">Winkelmandje</div>
-                </a>
-            </nav>
+        <div class="header-new">
+            <div class="header-right">
+                <nav>
+                    <a href="index.php">
+                        <div class="menu-text-active">Over Ons</div>
+                    </a>
+                    <a href="bestellen.php">
+                        <div class="menu-text">Bestellen</div>
+                    </a>
+                    <a href="blog.php">
+                        <div class="menu-text">Blog</div>
+                    </a>
+                    <a href="contact.php">
+                        <div class="menu-text">Contact</div>
+                    </a>
+                    <a href="winkelmandje.php">
+                        <div class="menu-text">Winkelmandje</div>
+                    </a>
+                </nav>
+            </div>
+            <div class="header-right-new">
+                <nav>
+                    <a href="inlog.php">
+                        <div class="menu-text-new">Inloggen</div>
+                    </a>
+                    <a href="registreer.php">
+                        <div class="menu-text-new">Registreren</div>
+                    </a>
+                    <a href="gegevens.php">
+                        <div class="menu-text-new">Gegevens</div>
+                    </a>
+                    <a href="bestellingen.php">
+                        <div class="menu-text-new">Bestellingen</div>
+                    </a>
+                    <a href="uitloggen.php">
+                        <div class="menu-text-new">Uitloggen</div>
+                    </a>
+                </nav>
+            </div>
         </div>
     </div>
 
@@ -121,11 +142,11 @@
                         </div>
                         <div class="article-right-1">
                             <div class="article-image-1">
-                                <img src="images/ijszaak.jpg" alt="">
+                                <img src="images/roset.jpg" alt="">
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <!-- <article>
                         <div class="article-center-1">
                             <h5>
                                 De Roset IJssalon is geopend in het zomerseizoen.
@@ -135,7 +156,7 @@
                                 Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs.
                             </h5>
                         </div>
-                    </article>
+                    </article> -->
                     <article>
                         <div class="article-left-2">
                             <div class="article-image-1">
@@ -144,9 +165,9 @@
                         </div>
                         <div class="article-right-2">
                             <h5>
-                                De Roset IJssalon is geopend in het zomerseizoen.
-                                Je hebt keuze uit diverse smaken en toppings.
-                                Voor ons banketbakkersijs wordt dagelijks verse melk bij de boer gehaald, dit vormt de basis van het heerlijke, ambachtelijk gemaakt ijs.
+                                De Roset word al jaren lang bekroond met het beste ijs van Noord-Holland.
+                                Ben je benieuwd? Kom langs bij een van onze filealen of bestel online via onze website!
+                                Mocht je vragen hebben kun je altijd terecht bij onze medewerkers.
                             </h5>
                         </div>
                     </article>
@@ -173,9 +194,9 @@
 
         <div class="footer-middle">
             <h6>Wij bezorgen in:</h6>
-            <h7>Castricum</h7>
-            <h7>Uitgeest</h7>
-            <h7>Heemskerk</h7>
+            <h7>Amsterdam</h7>
+            <h7>Amstelveen</h7>
+            <h7>Bovenkerk</h7>
         </div>
 
         <div class="footer-right">

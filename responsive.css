@@ -67,7 +67,7 @@
     }
 
     .main-group {
-        margin: 25px 0 0 0;
+        margin: 65px 0 0 0;
     }
 
     .header-group {
@@ -112,6 +112,22 @@
   }
 
   @media screen and (max-width: 1000px) {
+
+    .main-overons article {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .main-overons article:last-child {
+        display: flex;
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .article-right-2 {
+        margin-left: 0px;
+    }
 
     .ijs-item img {
         max-width: 115px;
@@ -158,6 +174,15 @@
 
   @media screen and (max-width: 900px) {
 
+    .footer-group,
+    .footer-group h6 {
+        font-size: 20px;
+    }
+
+    .main-group {
+        margin: 90px 0 0 0;
+    }
+
     .header-right a:first-child {
         min-width: 131px;
     }
@@ -168,6 +193,7 @@
 
     .main-main {
         width: 560px;
+        height: 790px;
     }
 
     .smaak-vdd img {
@@ -180,7 +206,7 @@
     }
 
     .main-text h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .smaak-vdd .text-1 h3,
@@ -201,6 +227,26 @@
     .header-left {
         margin: 0 40px 0 0;
     }
+
+    .main-text h5,
+    .main-text h6 {
+        font-size: 28px;
+    }
+
+    .main-text h4 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .main-bestellen .main-text h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .text-1 h3 {
+        font-size: 23px;
+    }
+        
 
   }
 
@@ -331,7 +377,7 @@
     }
 
     .main-main {
-        height: 700px;
+        height: 730px;
     }
     
     .ijs-item-lower .bestel-knop-1 {
@@ -349,7 +395,7 @@
     }
 
     .main-text h2 {
-        font-size: 24px;
+        font-size: 36px;
     }
 
     .text-1 h3 {
@@ -366,7 +412,7 @@
     }
 
     .text-1 h4 {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .ijs-items-1, .ijs-items-2, .ijs-items-3 {
@@ -386,7 +432,7 @@
     }
 
     .main-main {
-        height: 2100px;
+        height: 2445px;
     }
 
     .text-1 h3 {
@@ -423,7 +469,7 @@
     }
 
     .footer-group {
-        margin-bottom: 160px;
+        margin-bottom: 180px;
     }
 
     .header-left {
@@ -433,6 +479,84 @@
 
     .header-right {
         margin-right: 25px;
+    }
+
+    .footer-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 400px;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        margin-left: 25px;
+    }
+
+    .footer-group h6,
+    .footer-group h7,
+    .footer-group a {
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .main-text h5,
+    .main-text h6 {
+        font-size: 28px;
+    }
+
+    .main-text h4 {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+    .bestel-knop-1 {
+        border: 1px solid #000000;
+        padding: 15px;
+        font-size: 30px;
+        border-radius: 33px;
+        margin-bottom: -4px;
+    }
+
+    .ijs-item-lower {
+        height: 60px;
+    }
+
+    .ijs-item-lower input {
+        width: 80px;
+        height: 55px;
+        font-size: 25px;
+    }
+
+    .ijs-item-lower .bestel-knop-1 {
+        padding: 18px;
+        font-size: 34px;
+    }
+
+    .article-left-1 h5,
+    .article-left-2 h5,
+    .article-right-1 h5,
+    .article-right-2 h5 {
+        font-size: 30px;
+    }
+    
+    .header-left {
+        display: none;
+    }
+
+    .header-right {
+        margin-right: 0;
+        padding-bottom: 13px;
+    }
+
+    .header-new {
+        height: 168px;
+        font-size: 27px;
+    }
+
+    .menu-text-new, .menu-text-active-new {
+        padding: 20px 13px;
     }
 
 }
